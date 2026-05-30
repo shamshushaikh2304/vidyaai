@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap');
+@import "tailwindcss";
+
+:root {
+  --background: 33 100% 97%;      /* warm #FFF8F0 */
+  --foreground: 222 47% 11%;      /* deep blue */
+  --primary:    25 95% 53%;       /* orange #F97316 */
+  --secondary:  222 47% 11%;      /* deep blue #0F172A */
+  --card:       0 0% 100%;
+  --muted:      33 20% 92%;
+  --muted-foreground: 215 13% 45%;
+  --border:     33 20% 88%;
+  --app-font-sans: 'Plus Jakarta Sans', sans-serif;
+  --app-font-serif: 'Outfit', serif;
+  --radius: 0.75rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+  font-family: var(--app-font-sans);
+}
+
+#root {
+  height: 100%;
+}
+
+/* Smooth scrollbar */
+::-webkit-scrollbar { width: 4px; height: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: hsl(var(--muted)); border-radius: 99px; }
+
+/* Scrollbar hidden utility */
+.scrollbar-none::-webkit-scrollbar { display: none; }
+.scrollbar-none { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Bounce animation for loading dots */
+@keyframes bounce {
+  0%, 80%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-5px); }
+}
