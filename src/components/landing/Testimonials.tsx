@@ -17,7 +17,7 @@ const TESTIMONIALS: Testimonial[] = [
     role: "NEET 2024 — AIR 312",
     avatar: "A",
     color: "#FF6B35",
-    text: "I failed NEET twice. VidyaAI showed me exactly which chapters I was weak in and why. Third attempt — AIR 312. I still can't believe it.",
+    text: "I failed NEET twice. AryaLearn showed me exactly which chapters I was weak in and why. Third attempt — AIR 312. I still can't believe it.",
     rating: 5,
   },
   {
@@ -33,7 +33,7 @@ const TESTIMONIALS: Testimonial[] = [
     role: "UPSC CSE 2024 — Selected",
     avatar: "P",
     color: "#845EC2",
-    text: "Preparing in Malayalam was something I never thought was possible. VidyaAI let me think and learn in my own language. It changed everything.",
+    text: "Preparing in Malayalam was something I never thought was possible. AryaLearn let me think and learn in my own language. It changed everything.",
     rating: 5,
   },
   {
@@ -41,7 +41,7 @@ const TESTIMONIALS: Testimonial[] = [
     role: "CAT 2024 — 99.2 percentile",
     avatar: "K",
     color: "#FF9671",
-    text: "The exam intelligence predictions were scary accurate. 3 out of 5 DILR sets I saw in CAT were ones VidyaAI had flagged as 'high probability'. Madness.",
+    text: "The exam intelligence predictions were scary accurate. 3 out of 5 DILR sets I saw in CAT were ones AryaLearn had flagged as 'high probability'. Madness.",
     rating: 5,
   },
 ];

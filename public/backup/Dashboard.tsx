@@ -129,7 +129,7 @@ async function callTutor(
   subject: string, chapter: string, board: string, cls: string,
   language: string, history: Message[], userMessage: string
 ): Promise<string> {
-  const system = `You are VidyaAI, a warm and encouraging AI tutor for Indian school students.
+  const system = `You are AryaLearn, a warm and encouraging AI tutor for Indian school students.
 You are helping a Class ${cls} student studying ${subject} under the ${board} curriculum.
 Current topic: "${chapter}"
 
@@ -205,12 +205,12 @@ export default function Dashboard() {
     try {
       const reply = await callTutor(
         subj, ch, board, cls, language, [],
-        `Greet me warmly and introduce yourself as VidyaAI. Give a friendly 2-3 sentence intro to "${ch}". Start with one relatable example from Indian daily life. End with a question.`
+        `Greet me warmly and introduce yourself as AryaLearn. Give a friendly 2-3 sentence intro to "${ch}". Start with one relatable example from Indian daily life. End with a question.`
       );
       setMessages([{ role: "assistant", content: reply }]);
       if (autoSpeak) speakText(reply);
     } catch {
-      setMessages([{ role: "assistant", content: "Namaste! 🙏 I'm VidyaAI. Let's learn together! What would you like to know?" }]);
+      setMessages([{ role: "assistant", content: "Namaste! 🙏 I'm AryaLearn. Let's learn together! What would you like to know?" }]);
     }
     setLoading(false);
   };
@@ -300,7 +300,7 @@ export default function Dashboard() {
               </div>
               <div className="min-w-0">
                 <div className="text-[11px] uppercase tracking-[0.25em] text-slate-400">Learning OS</div>
-                <div className="truncate font-display text-lg font-semibold text-white">VidyaAI Studio</div>
+                <div className="truncate font-display text-lg font-semibold text-white">AryaLearn Studio</div>
               </div>
             </a>
 

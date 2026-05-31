@@ -1,4 +1,4 @@
-# VidyaAI — Replit Integration Guide
+# AryaLearn — Replit Integration Guide
 
 ## File Map
 

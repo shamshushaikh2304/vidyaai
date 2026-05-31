@@ -32,7 +32,7 @@ export default function FinalCTA() {
             </div>
             <h2 className="mb-4 text-4xl font-extrabold text-white md:text-5xl">Your Guru Awaits. 🙏</h2>
             <p className="mx-auto mb-8 max-w-xl text-lg text-orange-100">
-              Join 5,40,000+ students already learning smarter with VidyaAI. Start your journey to the top today.
+              Join 5,40,000+ students already learning smarter with AryaLearn. Start your journey to the top today.
             </p>
             <motion.a
               href="#pricing"

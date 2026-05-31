@@ -53,7 +53,7 @@ export default function Footer() {
 
         <div className="flex flex-col items-center justify-between gap-4 border-t border-white/5 pt-8 sm:flex-row">
           <p className="text-xs text-zinc-600">
-            © {new Date().getFullYear()} VidyaAI Technologies Pvt. Ltd. · Made with ❤️ in Mumbai
+            © {new Date().getFullYear()} AryaLearn Technologies Pvt. Ltd. · Made with ❤️ in Mumbai
           </p>
           <div className="flex gap-6">
             {SOCIAL_LINKS.map((social) => (

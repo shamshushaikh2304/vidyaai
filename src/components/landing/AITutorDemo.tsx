@@ -139,7 +139,7 @@ export default function AITutorDemo() {
                   <Brain size={16} className="text-white" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-semibold text-white">VidyaAI Tutor</h4>
+                  <h4 className="text-sm font-semibold text-white">AryaLearn Tutor</h4>
                   <div className="flex items-center gap-1.5">
                     <span className="h-1.5 w-1.5 animate-pulse rounded-full bg-[#00C9A7]" />
                     <span className="text-[10px] text-zinc-500">Online — Responds in 2s</span>
